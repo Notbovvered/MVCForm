@@ -21,5 +21,8 @@ namespace MVCForm.Models
         [Required(ErrorMessage = "You must enter a value for the Mail Address field!")]
         [EmailAddress(ErrorMessage = "Please enter a valid e-mail address!")]
         public string MailAddress { get; set; }
+
+        [WebUserBirthdayValidationAttribute]
+        public DateTime Birthday { get; set; }
     }
 }

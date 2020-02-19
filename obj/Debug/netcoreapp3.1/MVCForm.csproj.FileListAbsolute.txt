@@ -100,3 +100,4 @@ E:\GitProjects\MVCForm\MVCForm\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAna
 E:\GitProjects\MVCForm\MVCForm\obj\Debug\netcoreapp3.1\MVCForm.Views.pdb
 E:\GitProjects\MVCForm\MVCForm\obj\Debug\netcoreapp3.1\MVCForm.csproj.CopyComplete
 E:\GitProjects\MVCForm\MVCForm\obj\Debug\netcoreapp3.1\MVCForm.csprojAssemblyReference.cache
+E:\GitProjects\MVCForm\MVCForm\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs

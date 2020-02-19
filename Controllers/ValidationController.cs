@@ -9,7 +9,7 @@ namespace MVCForm.Controllers
 {
     public class ValidationController : Controller
     {
-        
+
 
         [HttpGet]
         public IActionResult SimpleValidation()
@@ -19,6 +19,21 @@ namespace MVCForm.Controllers
 
         [HttpPost]
         public IActionResult SimpleValidation(WebUser webUser)
+        {
+            if (ModelState.IsValid)
+                return Content("Thank you!");
+            else
+                return View(webUser);
+        }
+
+        [HttpGet]
+        public IActionResult CustomValidation()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult CustomValidation(WebUser webUser)
         {
             if (ModelState.IsValid)
                 return Content("Thank you!");
