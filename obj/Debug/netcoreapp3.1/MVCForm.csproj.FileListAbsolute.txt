@@ -99,3 +99,4 @@ E:\GitProjects\MVCForm\MVCForm\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAna
 E:\GitProjects\MVCForm\MVCForm\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\GitProjects\MVCForm\MVCForm\obj\Debug\netcoreapp3.1\MVCForm.Views.pdb
 E:\GitProjects\MVCForm\MVCForm\obj\Debug\netcoreapp3.1\MVCForm.csproj.CopyComplete
+E:\GitProjects\MVCForm\MVCForm\obj\Debug\netcoreapp3.1\MVCForm.csprojAssemblyReference.cache
