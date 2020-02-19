@@ -13,7 +13,7 @@ namespace MVCForm.Controllers
         {
             return View();
         }
-       
+
         [HttpGet]
         public IActionResult SimpleBinding()
         {
