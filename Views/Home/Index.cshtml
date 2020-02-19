@@ -1,4 +1,5 @@
-﻿
+﻿@model MVCForm.Models.WebUser
+
 @{
     Layout = null;
 }
@@ -8,8 +9,21 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <title>Form</title>
 </head>
 <body>
+    @using (var form = Html.BeginForm())
+    {
+        <div>
+            @Html.LabelFor(m => m.FirstName)
+            @Html.TextBoxFor(m => m.FirstName)
+        </div>
+
+        <div>
+            @Html.LabelFor(m => m.LastName)
+            @Html.TextBoxFor(m => m.LastName)
+        </div>
+        <input type="submit" value="Submit"/>
+    }
 </body>
 </html>
